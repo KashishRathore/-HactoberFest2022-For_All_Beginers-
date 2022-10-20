@@ -1,0 +1,240 @@
+<html>
+
+<head>
+    <title>www.login page</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+          }
+
+        body {
+            background: #dbc1a5;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left {
+            width: 50%;
+           
+        }
+
+        .left img {
+            height: 110%;
+            width: 100%;
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-style input {
+            border: 0px;
+            height: 50px;
+            border-radius: 10px;
+            border-bottom: 1px solid #ebebeb;
+            padding: 10px;
+            margin: 7px;
+            width: 450px;
+        }
+
+        .form-style input:focus {
+            border: 0px;
+            box-shadow: none;
+            height: 50px;
+            outline: 0px;
+            height: 30px;
+            border-radius: 10px;
+            border-bottom: 3px solid #ea8383;
+            padding: 10px;
+
+        }
+
+        .heading {
+            padding: 20px;
+            margin-right: 110px;
+            font-weight: 900px;
+            font-size: 30px;
+            font-family: "Gabriola", Times, serif;
+            letter-spacing: 2px;
+        }
+
+        .emailbox {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .eheading {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 1px;
+            margin-left: 110px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .pheading {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 1px;
+            margin-left: 110px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .check input {
+            width: 20px;
+        }
+
+        .check input:focus {
+            width: 20px;
+            border: 2px solid blue;
+        }
+
+        .block1 {
+            display: flex;
+            align-items: center;
+
+
+        }
+
+        .check {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            margin-right: 110px;
+        }
+
+        .forget {
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .submit {
+            background-color: rgb(5, 5, 39);
+            color: aliceblue;
+            padding: 10px;
+            width: 450px;
+            margin: 10px;
+            border: 0px solid black;
+            border-radius: 5px;
+        }
+
+        .sideline {
+            color: rgb(158, 156, 156);
+        }
+
+        .facebook img {
+            width: 40px;
+        }
+
+        .facebook button {
+            background-color: blue;
+            color: aliceblue;
+            padding: 2px;
+            width: 450px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 0px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line {
+            width: 200px;
+            margin: 0px 10px;
+        }
+
+        .sign {
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            padding: 8px;
+            align-content: center;
+            font-weight: bold;
+        }
+      }
+    </style>
+</head>
+
+<body>
+ <nav class="background">
+    <div class="container">
+        <div class="left">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.RjXaVeXaZMo_-5dpZCyJFQHaE8&pid=Api&P=0">
+        </div>
+        <div class="right">
+            <div class="heading">
+                <h1><b>Login Form</b></h1>
+            </div>
+            <div class="form-style">
+                <form action="">
+                    <div class="emailbox">
+                        <label for="email">
+                            <div class="eheading">
+                                E-mail
+                            </div>
+                            <input type="text" placeholder="E-mail" id="email" required>
+                        </label>
+                    </div>
+
+                    <div class="passwordbox">
+                        <label for="Password">
+                            <div class="pheading">
+                                Password
+                            </div>
+                            <input type="text" placeholder="Password" id="password" required>
+                        </label>
+                    </div>
+
+                    <div class="block1">
+                        <div class="check">
+                            <div><input type="checkbox" id="remember"></div>
+                            <div><b>Remember Me</b></div>
+                        </div>
+
+                        <div class="forget">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <button type="submit" class="submit" name="submit">Submit</button>
+                    </div>
+                </form>
+                <section>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="sideline">OR</div>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </section>
+                <div class="facebook">
+                    <i><button> <img
+                                src="file:///C:/Users/Dell/Downloads/kaliji2_files/50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-54.png" /><b>
+                                login with facebook</b></button></i>
+                </div>
+                <div class="sign">
+                    Get Member Benefit.<a href="#">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</body>
+
+</html>
